@@ -1,0 +1,119 @@
+html{
+    height: 100%;
+    width: 100%;
+    background-color: #e0ebeb;
+}
+
+.nome_usuario, .tipo_usuario, .texto_perfil, .icone_porteiro, .texto_sobre, .titulo_pag, .nome, .nome_login, .icone_predio, .main_login, .entrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome_usuario, .tipo_usuario, .texto_perfil, .texto_sobre, .titulo_pag, .nome, .input_login, .label_login, .nome_login, .form_login, .p_login, .entrar{
+    color: #324e4e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.icone_predio{
+    width: 20vw;
+    height: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nome_login{
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.form_login{
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.p_login{
+    margin: .5rem;
+}
+
+.entrar{
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    margin-bottom: 1rem;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: .2rem solid #141f1f;
+    border-radius: .3rem;
+    background-color: #b1cdcd;
+    
+}
+
+.label_login{
+    display: block;
+    height: .5rem;
+}
+
+.input_login{
+    margin-bottom: .5rem;
+}
+
+.nome{
+    height: 3rem;
+    border-bottom: .1rem solid black;
+    background-color: #73a5a5;
+    font-size: 2rem;
+    padding-top: .3rem;
+    padding-bottom: 0;
+}
+
+.voltar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+}
+
+.titulo_pag{
+    margin: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: .1rem solid black;
+    font-size: 1.5rem;
+
+}
+
+.texto_sobre{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.icone_porteiro{
+    margin: 1rem;
+    width: 25vw;
+    height: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: .1rem solid #141f1f;
+    border-radius: 3rem;
+}
+
+.texto_perfil, .tipo_usuario{
+    margin: 1rem;
+}
+
+.tipo_usuario{
+    padding-bottom: 0.5rem;
+    border-bottom: .1rem solid black;
+    font-size: 1rem;
+}
+
+.nome_usuario{
+    margin-top: 1rem;
+    margin-bottom: .3rem;
+    font-size: 1.5rem;
+}
