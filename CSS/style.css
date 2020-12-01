@@ -1,4 +1,4 @@
-html{
+html, body, main{
     height: 100%;
     width: 100%;
     background-color: #e0ebeb;
@@ -9,6 +9,7 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
 .texto_joao, .texto_sandra, .texto_mural1, .texto_mural, .texto_chatpt2, .nome_p, .hoje, a, .texto_chat, .recentes, .coment_like, .texto_aviso, .titulo_aviso, .escrever_aviso, .botao, .aviso, .nome_usuario, .tipo_usuario, .texto_perfil, .texto_sobre, .titulo_pag, .nome, .input_login, .label_login, .nome_login, .form_login, .p_login, .entrar{
@@ -72,7 +73,7 @@ html{
 
 .nome{
     height: 3rem;
-    border-bottom: .1rem solid black;
+    border-bottom: .1rem solid #141f1f;
     background-color: #73a5a5;
     font-size: 2rem;
     padding-top: .3rem;
