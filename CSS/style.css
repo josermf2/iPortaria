@@ -2,18 +2,27 @@ html{
     height: 100%;
     width: 100%;
     background-color: #e0ebeb;
+    font-family: 'Noticia Text', serif;
 }
 
-.nome_usuario, .tipo_usuario, .texto_perfil, .icone_porteiro, .texto_sobre, .titulo_pag, .nome, .nome_login, .icone_predio, .main_login, .entrar{
+.nome_p, .hoje, .notifi, .recentes, .titulo_aviso, .form_aviso, .nome_usuario, .tipo_usuario, .texto_perfil, .icone_porteiro, .texto_sobre, .titulo_pag, .nome, .nome_login, .icone_predio, .main_login, .entrar{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.nome_usuario, .tipo_usuario, .texto_perfil, .texto_sobre, .titulo_pag, .nome, .input_login, .label_login, .nome_login, .form_login, .p_login, .entrar{
+.texto_joao, .texto_sandra, .texto_mural1, .texto_mural, .texto_chatpt2, .nome_p, .hoje, a, .texto_chat, .recentes, .coment_like, .texto_aviso, .titulo_aviso, .escrever_aviso, .botao, .aviso, .nome_usuario, .tipo_usuario, .texto_perfil, .texto_sobre, .titulo_pag, .nome, .input_login, .label_login, .nome_login, .form_login, .p_login, .entrar{
     color: #324e4e;
     font-weight: bold;
     text-decoration: none;
+}
+
+.texto_sobre, .aviso{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.texto_sobre{
+    text-align: justify;
 }
 
 .icone_predio{
@@ -50,7 +59,6 @@ html{
     border: .2rem solid #141f1f;
     border-radius: .3rem;
     background-color: #b1cdcd;
-    
 }
 
 .label_login{
@@ -82,7 +90,7 @@ html{
 .titulo_pag{
     margin: 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: .1rem solid black;
+    border-bottom: .1rem solid #307979;
     font-size: 1.5rem;
 
 }
@@ -98,7 +106,7 @@ html{
     height: 25vw;
     margin-left: auto;
     margin-right: auto;
-    border: .1rem solid #141f1f;
+    border: .1rem solid #307979;
     border-radius: 3rem;
 }
 
@@ -108,7 +116,7 @@ html{
 
 .tipo_usuario{
     padding-bottom: 0.5rem;
-    border-bottom: .1rem solid black;
+    border-bottom: .1rem solid #307979;
     font-size: 1rem;
 }
 
@@ -116,4 +124,153 @@ html{
     margin-top: 1rem;
     margin-bottom: .3rem;
     font-size: 1.5rem;
+}
+
+.form_aviso{
+    border: 0.1rem solid #307979;
+    margin: 1rem; 
+    padding: 0.1rem;
+    height: 5rem;
+
+}
+
+.escrever_aviso{
+    width: 100%;
+    height: 100%;
+    background-color: #e0ebeb;
+    border:none;
+    outline: none;
+}
+
+.botao{
+    border: none;
+    background-color: #b1cdcd;
+    align-self: flex-end;
+    font-size: 1.5rem;
+}
+
+.titulo_aviso{
+    margin: 1rem;
+    padding-top: 0.5rem;
+    border-top: .1rem solid #307979;
+    font-size: 1.3rem;
+}
+
+.aviso{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding-top: .4rem;
+    padding-bottom: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: .1rem solid #141f1f;
+    background-color: #b1cdcd;
+    text-align: center;
+    position:relative;
+}
+
+.icone_comentario{
+    width: 2rem;
+    position:absolute;
+    bottom: 0rem;
+    right: 0rem;
+}
+
+.icone_like{
+    width: 2rem;
+    position:absolute;
+    bottom: 0rem;
+    right: 2rem;
+}
+
+.recentes{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.texto_chat{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding-top: .4rem;
+    padding-bottom: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: .1rem solid #141f1f;
+    background-color: #b1cdcd;
+}
+
+.notifi{
+    color: #141f1f;
+    background-color: #324e4e;
+    border: .1rem solid #141f1f;   
+    border-radius: 10rem;
+    width: 1rem;
+    margin-left: 73vw;
+}
+
+.hoje{
+    border: .1rem solid #141f1f;   
+    border-radius: 10rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-top: .4rem;
+    padding-bottom: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.texto_chatpt2{
+    border: .1rem solid #141f1f;   
+    border-radius: 1rem;
+    margin: 1rem;
+    padding-top: .4rem;
+    padding-bottom: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: start;
+}
+
+.texto_mural1{
+    border: .1rem solid #141f1f;   
+    border-radius: .5rem;
+    margin: 1rem;
+    padding-top: .4rem;
+    padding-bottom: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.texto_mural{
+    border-bottom: .1rem solid #141f1f;
+    padding-bottom: .5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.texto_sandra{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.texto_joao{
+    background-color:  #b1cdcd;
+    border: .1rem solid #141f1f;   
+    border-radius: .5rem;
+    margin: 1rem;
+    padding-top: .4rem;
+    padding-bottom: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.coment, .like{
+    width: 1.5rem;
+}
+
+.coment_like{
+    margin-left: 1rem;
 }

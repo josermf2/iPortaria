@@ -6,47 +6,53 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../CSS/reset.css">
         <link rel="stylesheet" href="../CSS/style.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <h1>
+            <h1 class="nome">
                 iPortaria
             </h1>
+
             <p>
-                <a href=menu.html><img src="../Img/seta_voltar.png" alt="seta_voltar" width="35" height="35"></a>
+                <a href=menu.html><img src="../Img/seta_voltar.png" alt="seta_voltar" class="voltar"></a>
             </p>
-            <p>
+
+            <p class="titulo_pag">
                 MURAL DE AVISOS
             </p>
         </header>
 
         <main>
-            <form>
-                <input type="text" value="Escreva um aviso...">
-                <button type="button"> ✔</button>
+            <form class="form_aviso">
+                <input type="text" class="escrever_aviso" value="Escreva um aviso...">
+                <button type="button" class="botao"> ✔</button>
             </form>
             
-            <p>
-               Avisos Anteriores
+            <p class="titulo_aviso">
+                Avisos Anteriores
             </p>
 
-            <p>
-                <a href=mural_de_avisos2.html>
-                João Marcos Carvalho - Porteria <br/>
-                Condôminos, a piscina está inteditada até o dia <br/>
-                12 deste mês. Obrigado pela atenção. <br/>
-                09/06/2021 - 13:31 
-                <img src="../Img/icone_msg.png" alt="icone_msg" width="20" height="20">
-                <img src="../Img/icone_like.png" alt="icone_like" width="20" height="20">
+            <p class="aviso">
+                <a href=mural_de_avisos2.html class="texto_aviso">
+                    João Marcos Carvalho - Portaria <br/>
+                    Condôminos, a piscina está inteditada até o dia
+                    12 deste mês. Obrigado pela atenção.<br/>
+                    09/06/2021 - 13:31 
                 </a>
+                <img src="../Img/icone_msg.png" alt="icone_msg"  class="icone_comentario">         
+                <img src="../Img/icone_like.png" alt="icone_like" class="icone_like">
             </p>
             
-            <p>
+            <p class="texto_perfil">
                 Ver mais
             </p>
 
-            <img src="../Img/icone_predio.png" alt="icone_predio" width="35" height="35">
+            <img src="../Img/icone_predio.png" alt="icone_predio" class="icone_predio">
         </main>
     </body>
 </html>
