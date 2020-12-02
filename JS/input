@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    botao = document.querySelector('.botao')
+    botao = document.querySelector('.botao')  
 
     escrever_aviso = document.querySelector('.escrever_aviso')
     
